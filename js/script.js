@@ -1,14 +1,7 @@
 var app = new Vue({
   el: '#app',
   data: {
-    heading: [
-      'States',
-      'Total Cases',
-      'Discharged',
-      'Deaths',
-      'Remaining',
-      'Date of last Confirmed Case(s)',
-    ],
+    heading: ['States', 'Total Cases', 'Discharged', 'Deaths', 'Remaining'],
     reports: [
       {
         state: 'Abuja',
