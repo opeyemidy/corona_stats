@@ -309,13 +309,13 @@ google.charts.setOnLoadCallback(drawChart)
 function drawChart() {
   var data = google.visualization.arrayToDataTable([
     ['Category', 'Number'],
-    ['Total Cases', 210],
+    ['Total Cases', 209],
     ['Discharged', 25],
     ['Deaths', 4],
   ])
 
   var options = {
-    title: 'Corona Data n Nigeria',
+    title: 'Corona Data in Nigeria',
   }
 
   var chart = new google.visualization.PieChart(
